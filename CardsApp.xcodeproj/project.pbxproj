@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9FEBAEE1B0235EA007BAD33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FEBAED1B0235EA007BAD33 /* main.m */; };
+		D9FEBAF11B0235EA007BAD33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FEBAF01B0235EA007BAD33 /* AppDelegate.m */; };
+		D9FEBAF41B0235EA007BAD33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FEBAF31B0235EA007BAD33 /* ViewController.m */; };
+		D9FEBAF71B0235EA007BAD33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FEBAF51B0235EA007BAD33 /* Main.storyboard */; };
+		D9FEBAF91B0235EA007BAD33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9FEBAF81B0235EA007BAD33 /* Images.xcassets */; };
+		D9FEBAFC1B0235EA007BAD33 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9FEBAFA1B0235EA007BAD33 /* LaunchScreen.xib */; };
+		D9FEBB081B0235EA007BAD33 /* CardsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FEBB071B0235EA007BAD33 /* CardsAppTests.m */; };
+		D9FEBB1B1B0235FD007BAD33 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FEBB1A1B0235FD007BAD33 /* InterfaceController.m */; };
+		D9FEBB1D1B0235FD007BAD33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9FEBB1C1B0235FD007BAD33 /* Images.xcassets */; };
+		D9FEBB211B0235FD007BAD33 /* CardsApp WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = D9FEBB201B0235FD007BAD33 /* CardsApp WatchKit App.app */; };
+		D9FEBB291B0235FD007BAD33 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FEBB271B0235FD007BAD33 /* Interface.storyboard */; };
+		D9FEBB2B1B0235FD007BAD33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9FEBB2A1B0235FD007BAD33 /* Images.xcassets */; };
+		D9FEBB2E1B0235FD007BAD33 /* CardsApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D9FEBB151B0235FD007BAD33 /* CardsApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9FEBB021B0235EA007BAD33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9FEBAE01B0235EA007BAD33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9FEBAE71B0235EA007BAD33;
+			remoteInfo = CardsApp;
+		};
+		D9FEBB221B0235FD007BAD33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9FEBAE01B0235EA007BAD33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9FEBB1F1B0235FD007BAD33;
+			remoteInfo = "CardsApp WatchKit App";
+		};
+		D9FEBB2C1B0235FD007BAD33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9FEBAE01B0235EA007BAD33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9FEBB141B0235FD007BAD33;
+			remoteInfo = "CardsApp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D9FEBB351B0235FD007BAD33 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D9FEBB2E1B0235FD007BAD33 /* CardsApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D9FEBAE81B0235EA007BAD33 /* CardsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9FEBAEC1B0235EA007BAD33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9FEBAED1B0235EA007BAD33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9FEBAEF1B0235EA007BAD33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9FEBAF01B0235EA007BAD33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9FEBAF21B0235EA007BAD33 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D9FEBAF31B0235EA007BAD33 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D9FEBAF61B0235EA007BAD33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9FEBAF81B0235EA007BAD33 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D9FEBAFB1B0235EA007BAD33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D9FEBB011B0235EA007BAD33 /* CardsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9FEBB061B0235EA007BAD33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9FEBB071B0235EA007BAD33 /* CardsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardsAppTests.m; sourceTree = "<group>"; };
+		D9FEBB151B0235FD007BAD33 /* CardsApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CardsApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9FEBB181B0235FD007BAD33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9FEBB191B0235FD007BAD33 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		D9FEBB1A1B0235FD007BAD33 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		D9FEBB1C1B0235FD007BAD33 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D9FEBB201B0235FD007BAD33 /* CardsApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CardsApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9FEBB261B0235FD007BAD33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9FEBB281B0235FD007BAD33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D9FEBB2A1B0235FD007BAD33 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9FEBAE51B0235EA007BAD33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FEBAFE1B0235EA007BAD33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FEBB121B0235FD007BAD33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9FEBADF1B0235EA007BAD33 = {
+			isa = PBXGroup;
+			children = (
+				D9FEBAEA1B0235EA007BAD33 /* CardsApp */,
+				D9FEBB041B0235EA007BAD33 /* CardsAppTests */,
+				D9FEBB161B0235FD007BAD33 /* CardsApp WatchKit Extension */,
+				D9FEBB241B0235FD007BAD33 /* CardsApp WatchKit App */,
+				D9FEBAE91B0235EA007BAD33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9FEBAE91B0235EA007BAD33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9FEBAE81B0235EA007BAD33 /* CardsApp.app */,
+				D9FEBB011B0235EA007BAD33 /* CardsAppTests.xctest */,
+				D9FEBB151B0235FD007BAD33 /* CardsApp WatchKit Extension.appex */,
+				D9FEBB201B0235FD007BAD33 /* CardsApp WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9FEBAEA1B0235EA007BAD33 /* CardsApp */ = {
+			isa = PBXGroup;
+			children = (
+				D9FEBAEF1B0235EA007BAD33 /* AppDelegate.h */,
+				D9FEBAF01B0235EA007BAD33 /* AppDelegate.m */,
+				D9FEBAF21B0235EA007BAD33 /* ViewController.h */,
+				D9FEBAF31B0235EA007BAD33 /* ViewController.m */,
+				D9FEBAF51B0235EA007BAD33 /* Main.storyboard */,
+				D9FEBAF81B0235EA007BAD33 /* Images.xcassets */,
+				D9FEBAFA1B0235EA007BAD33 /* LaunchScreen.xib */,
+				D9FEBAEB1B0235EA007BAD33 /* Supporting Files */,
+			);
+			path = CardsApp;
+			sourceTree = "<group>";
+		};
+		D9FEBAEB1B0235EA007BAD33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9FEBAEC1B0235EA007BAD33 /* Info.plist */,
+				D9FEBAED1B0235EA007BAD33 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9FEBB041B0235EA007BAD33 /* CardsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9FEBB071B0235EA007BAD33 /* CardsAppTests.m */,
+				D9FEBB051B0235EA007BAD33 /* Supporting Files */,
+			);
+			path = CardsAppTests;
+			sourceTree = "<group>";
+		};
+		D9FEBB051B0235EA007BAD33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9FEBB061B0235EA007BAD33 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9FEBB161B0235FD007BAD33 /* CardsApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D9FEBB191B0235FD007BAD33 /* InterfaceController.h */,
+				D9FEBB1A1B0235FD007BAD33 /* InterfaceController.m */,
+				D9FEBB1C1B0235FD007BAD33 /* Images.xcassets */,
+				D9FEBB171B0235FD007BAD33 /* Supporting Files */,
+			);
+			path = "CardsApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D9FEBB171B0235FD007BAD33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9FEBB181B0235FD007BAD33 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9FEBB241B0235FD007BAD33 /* CardsApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D9FEBB271B0235FD007BAD33 /* Interface.storyboard */,
+				D9FEBB2A1B0235FD007BAD33 /* Images.xcassets */,
+				D9FEBB251B0235FD007BAD33 /* Supporting Files */,
+			);
+			path = "CardsApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		D9FEBB251B0235FD007BAD33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9FEBB261B0235FD007BAD33 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9FEBAE71B0235EA007BAD33 /* CardsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9FEBB0B1B0235EA007BAD33 /* Build configuration list for PBXNativeTarget "CardsApp" */;
+			buildPhases = (
+				D9FEBAE41B0235EA007BAD33 /* Sources */,
+				D9FEBAE51B0235EA007BAD33 /* Frameworks */,
+				D9FEBAE61B0235EA007BAD33 /* Resources */,
+				D9FEBB351B0235FD007BAD33 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9FEBB2D1B0235FD007BAD33 /* PBXTargetDependency */,
+			);
+			name = CardsApp;
+			productName = CardsApp;
+			productReference = D9FEBAE81B0235EA007BAD33 /* CardsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9FEBB001B0235EA007BAD33 /* CardsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9FEBB0E1B0235EA007BAD33 /* Build configuration list for PBXNativeTarget "CardsAppTests" */;
+			buildPhases = (
+				D9FEBAFD1B0235EA007BAD33 /* Sources */,
+				D9FEBAFE1B0235EA007BAD33 /* Frameworks */,
+				D9FEBAFF1B0235EA007BAD33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9FEBB031B0235EA007BAD33 /* PBXTargetDependency */,
+			);
+			name = CardsAppTests;
+			productName = CardsAppTests;
+			productReference = D9FEBB011B0235EA007BAD33 /* CardsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9FEBB141B0235FD007BAD33 /* CardsApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9FEBB321B0235FD007BAD33 /* Build configuration list for PBXNativeTarget "CardsApp WatchKit Extension" */;
+			buildPhases = (
+				D9FEBB111B0235FD007BAD33 /* Sources */,
+				D9FEBB121B0235FD007BAD33 /* Frameworks */,
+				D9FEBB131B0235FD007BAD33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9FEBB231B0235FD007BAD33 /* PBXTargetDependency */,
+			);
+			name = "CardsApp WatchKit Extension";
+			productName = "CardsApp WatchKit Extension";
+			productReference = D9FEBB151B0235FD007BAD33 /* CardsApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		D9FEBB1F1B0235FD007BAD33 /* CardsApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9FEBB2F1B0235FD007BAD33 /* Build configuration list for PBXNativeTarget "CardsApp WatchKit App" */;
+			buildPhases = (
+				D9FEBB1E1B0235FD007BAD33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CardsApp WatchKit App";
+			productName = "CardsApp WatchKit App";
+			productReference = D9FEBB201B0235FD007BAD33 /* CardsApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9FEBAE01B0235EA007BAD33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Mark Hall";
+				TargetAttributes = {
+					D9FEBAE71B0235EA007BAD33 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					D9FEBB001B0235EA007BAD33 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = D9FEBAE71B0235EA007BAD33;
+					};
+					D9FEBB141B0235FD007BAD33 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					D9FEBB1F1B0235FD007BAD33 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D9FEBAE31B0235EA007BAD33 /* Build configuration list for PBXProject "CardsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9FEBADF1B0235EA007BAD33;
+			productRefGroup = D9FEBAE91B0235EA007BAD33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9FEBAE71B0235EA007BAD33 /* CardsApp */,
+				D9FEBB001B0235EA007BAD33 /* CardsAppTests */,
+				D9FEBB141B0235FD007BAD33 /* CardsApp WatchKit Extension */,
+				D9FEBB1F1B0235FD007BAD33 /* CardsApp WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9FEBAE61B0235EA007BAD33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FEBAF71B0235EA007BAD33 /* Main.storyboard in Resources */,
+				D9FEBAFC1B0235EA007BAD33 /* LaunchScreen.xib in Resources */,
+				D9FEBAF91B0235EA007BAD33 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FEBAFF1B0235EA007BAD33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FEBB131B0235FD007BAD33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FEBB211B0235FD007BAD33 /* CardsApp WatchKit App.app in Resources */,
+				D9FEBB1D1B0235FD007BAD33 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FEBB1E1B0235FD007BAD33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FEBB291B0235FD007BAD33 /* Interface.storyboard in Resources */,
+				D9FEBB2B1B0235FD007BAD33 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9FEBAE41B0235EA007BAD33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FEBAF41B0235EA007BAD33 /* ViewController.m in Sources */,
+				D9FEBAF11B0235EA007BAD33 /* AppDelegate.m in Sources */,
+				D9FEBAEE1B0235EA007BAD33 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FEBAFD1B0235EA007BAD33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FEBB081B0235EA007BAD33 /* CardsAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FEBB111B0235FD007BAD33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FEBB1B1B0235FD007BAD33 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9FEBB031B0235EA007BAD33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9FEBAE71B0235EA007BAD33 /* CardsApp */;
+			targetProxy = D9FEBB021B0235EA007BAD33 /* PBXContainerItemProxy */;
+		};
+		D9FEBB231B0235FD007BAD33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9FEBB1F1B0235FD007BAD33 /* CardsApp WatchKit App */;
+			targetProxy = D9FEBB221B0235FD007BAD33 /* PBXContainerItemProxy */;
+		};
+		D9FEBB2D1B0235FD007BAD33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9FEBB141B0235FD007BAD33 /* CardsApp WatchKit Extension */;
+			targetProxy = D9FEBB2C1B0235FD007BAD33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9FEBAF51B0235EA007BAD33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9FEBAF61B0235EA007BAD33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9FEBAFA1B0235EA007BAD33 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9FEBAFB1B0235EA007BAD33 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		D9FEBB271B0235FD007BAD33 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9FEBB281B0235FD007BAD33 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9FEBB091B0235EA007BAD33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9FEBB0A1B0235EA007BAD33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9FEBB0C1B0235EA007BAD33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CardsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9FEBB0D1B0235EA007BAD33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CardsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D9FEBB0F1B0235EA007BAD33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CardsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardsApp.app/CardsApp";
+			};
+			name = Debug;
+		};
+		D9FEBB101B0235EA007BAD33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CardsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardsApp.app/CardsApp";
+			};
+			name = Release;
+		};
+		D9FEBB301B0235FD007BAD33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = "";
+				IBSC_MODULE = CardsApp_WatchKit_Extension;
+				INFOPLIST_FILE = "CardsApp WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		D9FEBB311B0235FD007BAD33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_VERSION = "";
+				IBSC_MODULE = CardsApp_WatchKit_Extension;
+				INFOPLIST_FILE = "CardsApp WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		D9FEBB331B0235FD007BAD33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "CardsApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CardsApp",
+					WatchKit,
+					App,
+				);
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D9FEBB341B0235FD007BAD33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "CardsApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CardsApp",
+					WatchKit,
+					App,
+				);
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9FEBAE31B0235EA007BAD33 /* Build configuration list for PBXProject "CardsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9FEBB091B0235EA007BAD33 /* Debug */,
+				D9FEBB0A1B0235EA007BAD33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9FEBB0B1B0235EA007BAD33 /* Build configuration list for PBXNativeTarget "CardsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9FEBB0C1B0235EA007BAD33 /* Debug */,
+				D9FEBB0D1B0235EA007BAD33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9FEBB0E1B0235EA007BAD33 /* Build configuration list for PBXNativeTarget "CardsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9FEBB0F1B0235EA007BAD33 /* Debug */,
+				D9FEBB101B0235EA007BAD33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9FEBB2F1B0235FD007BAD33 /* Build configuration list for PBXNativeTarget "CardsApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9FEBB301B0235FD007BAD33 /* Debug */,
+				D9FEBB311B0235FD007BAD33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9FEBB321B0235FD007BAD33 /* Build configuration list for PBXNativeTarget "CardsApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9FEBB331B0235FD007BAD33 /* Debug */,
+				D9FEBB341B0235FD007BAD33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9FEBAE01B0235EA007BAD33 /* Project object */;
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14E11f" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <label alignment="left" text="Cards: " id="mAK-sa-WI5"/>
+                        <group width="1" alignment="left" id="guw-PY-wgp">
+                            <items>
+                                <imageView width="0.50000000000000011" height="100" alignment="left" contentMode="scaleAspectFit" id="CHY-o1-ilK"/>
+                                <imageView width="0.50000000000000011" height="100" alignment="right" contentMode="scaleAspectFit" id="nR1-ZY-EYF"/>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" title="Hit" id="3h9-vf-FoP">
+                            <connections>
+                                <action selector="hitMe" destination="AgC-eL-Hgc" id="mGZ-3z-bo2"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="New Cards" id="0US-Ov-er7">
+                            <connections>
+                                <action selector="getNewCards" destination="AgC-eL-Hgc" id="e2f-64-TIE"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="New Deck" id="QAU-k4-XP9">
+                            <connections>
+                                <action selector="newDeck" destination="AgC-eL-Hgc" id="ESw-bk-Vih"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="card2View" destination="CHY-o1-ilK" id="rvk-om-Zwj"/>
+                        <outlet property="cardView" destination="nR1-ZY-EYF" id="lcP-eF-aKU"/>
+                        <outlet property="cardsListLabel" destination="mAK-sa-WI5" id="NzS-1e-HBw"/>
+                        <outlet property="getNewCardsButton" destination="0US-Ov-er7" id="vyx-6h-JMe"/>
+                        <outlet property="hitButton" destination="3h9-vf-FoP" id="Tqt-tK-oU0"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="440" y="421.5"/>
+        </scene>
+    </scenes>
+</document>
