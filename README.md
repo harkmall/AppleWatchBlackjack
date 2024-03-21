@@ -1,4 +1,4 @@
-#Apple Watch Blackjack
+# Apple Watch Blackjack
 
 A Simple Apple Watch App that uses the [Deck of Cards API](http://deckofcardsapi.com) to allow you to play a solo game of Blackjack on your Apple Watch.
 
